@@ -25,8 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            Navigator.pop(
-                context); // This allows user to return to the previous screen
+            Navigator.pop(context);
           },
         ),
       ),
@@ -37,10 +36,9 @@ class _LoginScreenState extends State<LoginScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Center(
-                // Display the CiMSO Logo
                 child: Image.asset(
                   'assets/images/logo.png',
-                  width: 120, // Adjust size as needed
+                  width: 120,
                   errorBuilder: (context, error, stackTrace) => const Text(
                     "Image not found",
                     style: TextStyle(color: Colors.red, fontSize: 16),
@@ -66,8 +64,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     TextFormField(
                       controller: _emailController,
                       keyboardType: TextInputType.emailAddress,
+                      style: const TextStyle(color: Colors.black), // 👈 added
                       decoration: InputDecoration(
                         labelText: "Email",
+                        labelStyle:
+                            const TextStyle(color: Colors.black), // optional
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -87,8 +88,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     TextFormField(
                       controller: _passwordController,
                       obscureText: true,
+                      style: const TextStyle(color: Colors.black), // 👈 added
                       decoration: InputDecoration(
                         labelText: "Password",
+                        labelStyle:
+                            const TextStyle(color: Colors.black), // optional
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -114,8 +118,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                   content: Text("Login Successful"),
                                   backgroundColor: Colors.green),
                             );
-                            // Navigate to BookingArrivalsScreen
-// Navigate to BaseScreen instead of BookingArrivalsScreen
                             Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(

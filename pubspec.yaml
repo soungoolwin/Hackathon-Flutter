@@ -59,6 +59,9 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/booking_arrivals_screens.json
+    - assets/compare_arrival_bookings_screen.json
+    - assets/todays_arrival_departure_screen.json
+    - assets/guest_birthday_screen.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

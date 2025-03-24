@@ -1,0 +1,85 @@
+{
+  "guests": [
+    {
+      "name": "John Doe",
+      "birthdate": "March 27",
+      "weekNumber": 4,
+      "ageSegment": "35-44",
+      "preferredRoom": "Deluxe Suite"
+    },
+    {
+      "name": "Emma Smith",
+      "birthdate": "March 27",
+      "weekNumber": 4,
+      "ageSegment": "25-34",
+      "preferredRoom": "Ocean View"
+    },
+    {
+      "name": "Liam Johnson",
+      "birthdate": "February 12",
+      "weekNumber": 2,
+      "ageSegment": "45-54",
+      "preferredRoom": "Executive Suite"
+    },
+    {
+      "name": "Sophia Brown",
+      "birthdate": "April 15",
+      "weekNumber": 3,
+      "ageSegment": "18-24",
+      "preferredRoom": "Standard Room"
+    },
+    {
+      "name": "Mason Lee",
+      "birthdate": "March 27",
+      "weekNumber": 4,
+      "ageSegment": "55-64",
+      "preferredRoom": "Presidential Suite"
+    },
+    {
+      "name": "Ava Garcia",
+      "birthdate": "January 8",
+      "weekNumber": 2,
+      "ageSegment": "25-34",
+      "preferredRoom": "Garden View"
+    },
+    {
+      "name": "James Wilson",
+      "birthdate": "May 21",
+      "weekNumber": 3,
+      "ageSegment": "35-44",
+      "preferredRoom": "Family Room"
+    },
+    {
+      "name": "Isabella Martinez",
+      "birthdate": "February 28",
+      "weekNumber": 4,
+      "ageSegment": "18-24",
+      "preferredRoom": "Standard Room"
+    },
+    {
+      "name": "Ethan Thomas",
+      "birthdate": "June 15",
+      "weekNumber": 3,
+      "ageSegment": "25-34",
+      "preferredRoom": "Ocean View"
+    },
+    {
+      "name": "Olivia Taylor",
+      "birthdate": "March 3",
+      "weekNumber": 1,
+      "ageSegment": "45-54",
+      "preferredRoom": "Executive Suite"
+    }
+  ],
+  "todayDate": "March 27",
+  "ageSegments": ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+  "roomTypes": [
+    "Standard Room",
+    "Garden View",
+    "Ocean View",
+    "Deluxe Suite",
+    "Executive Suite",
+    "Family Room",
+    "Presidential Suite"
+  ]
+}

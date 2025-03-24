@@ -14,12 +14,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  final TextEditingController _confirmPasswordController = TextEditingController();
+  final TextEditingController _confirmPasswordController =
+      TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: true, // Prevent keyboard overflow
+      resizeToAvoidBottomInset: true,
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -32,16 +33,15 @@ class _RegisterScreenState extends State<RegisterScreen> {
         ),
       ),
       body: SafeArea(
-        child: SingleChildScrollView( // Make form scrollable
+        child: SingleChildScrollView(
           padding: const EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Display the CiMSO Logo
               Center(
                 child: Image.asset(
                   'assets/images/logo.png',
-                  width: 120, // Adjust size as needed
+                  width: 120,
                   errorBuilder: (context, error, stackTrace) {
                     return const Text(
                       "Image not found",
@@ -50,7 +50,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   },
                 ),
               ),
-
               const SizedBox(height: 20),
               Text(
                 "Register",
@@ -63,7 +62,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
               ),
               const SizedBox(height: 20),
-
               Form(
                 key: _formKey,
                 child: Column(
@@ -71,8 +69,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     // Name Field
                     TextFormField(
                       controller: _nameController,
+                      style: const TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Full Name",
+                        labelStyle: const TextStyle(color: Colors.black),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -92,8 +92,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     TextFormField(
                       controller: _emailController,
                       keyboardType: TextInputType.emailAddress,
+                      style: const TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Email",
+                        labelStyle: const TextStyle(color: Colors.black),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -115,8 +117,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     TextFormField(
                       controller: _passwordController,
                       obscureText: true,
+                      style: const TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Password",
+                        labelStyle: const TextStyle(color: Colors.black),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -138,8 +142,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     TextFormField(
                       controller: _confirmPasswordController,
                       obscureText: true,
+                      style: const TextStyle(color: Colors.black),
                       decoration: InputDecoration(
                         labelText: "Confirm Password",
+                        labelStyle: const TextStyle(color: Colors.black),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -170,10 +176,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                 backgroundColor: Colors.green,
                               ),
                             );
-                            // Navigate to Login Screen after registration
                             Navigator.pushReplacement(
                               context,
-                              MaterialPageRoute(builder: (context) => const LoginScreen()),
+                              MaterialPageRoute(
+                                  builder: (context) => const LoginScreen()),
                             );
                           }
                         },

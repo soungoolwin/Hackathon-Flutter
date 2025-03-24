@@ -1,0 +1,176 @@
+{
+  "totalArrivals": 120,
+  "totalDepartures": 80,
+  "data": [
+    {
+      "date": "2024-01-01",
+      "arrivals": [
+        { "time": "08:30", "count": 5 },
+        { "time": "10:15", "count": 8 },
+        { "time": "12:45", "count": 3 },
+        { "time": "14:30", "count": 6 },
+        { "time": "16:20", "count": 4 }
+      ],
+      "departures": [
+        { "time": "09:00", "count": 3 },
+        { "time": "11:30", "count": 5 },
+        { "time": "13:45", "count": 2 },
+        { "time": "15:20", "count": 4 },
+        { "time": "17:00", "count": 3 }
+      ]
+    },
+    {
+      "date": "2024-01-02",
+      "arrivals": [
+        { "time": "08:15", "count": 4 },
+        { "time": "10:30", "count": 7 },
+        { "time": "12:30", "count": 5 },
+        { "time": "14:45", "count": 3 },
+        { "time": "16:00", "count": 6 }
+      ],
+      "departures": [
+        { "time": "09:30", "count": 4 },
+        { "time": "11:45", "count": 3 },
+        { "time": "13:30", "count": 5 },
+        { "time": "15:15", "count": 2 },
+        { "time": "17:30", "count": 4 }
+      ]
+    },
+    {
+      "date": "2024-01-03",
+      "arrivals": [
+        { "time": "08:45", "count": 6 },
+        { "time": "10:00", "count": 4 },
+        { "time": "12:15", "count": 7 },
+        { "time": "14:00", "count": 5 },
+        { "time": "16:30", "count": 3 }
+      ],
+      "departures": [
+        { "time": "09:15", "count": 2 },
+        { "time": "11:00", "count": 4 },
+        { "time": "13:15", "count": 3 },
+        { "time": "15:45", "count": 5 },
+        { "time": "17:15", "count": 2 }
+      ]
+    },
+    {
+      "date": "2024-01-04",
+      "arrivals": [
+        { "time": "08:00", "count": 3 },
+        { "time": "10:45", "count": 5 },
+        { "time": "12:00", "count": 4 },
+        { "time": "14:15", "count": 7 },
+        { "time": "16:45", "count": 2 }
+      ],
+      "departures": [
+        { "time": "09:45", "count": 3 },
+        { "time": "11:15", "count": 2 },
+        { "time": "13:00", "count": 4 },
+        { "time": "15:30", "count": 3 },
+        { "time": "17:45", "count": 5 }
+      ]
+    },
+    {
+      "date": "2024-01-05",
+      "arrivals": [
+        { "time": "08:30", "count": 4 },
+        { "time": "10:15", "count": 6 },
+        { "time": "12:45", "count": 3 },
+        { "time": "14:30", "count": 5 },
+        { "time": "16:20", "count": 7 }
+      ],
+      "departures": [
+        { "time": "09:00", "count": 4 },
+        { "time": "11:30", "count": 3 },
+        { "time": "13:45", "count": 5 },
+        { "time": "15:20", "count": 2 },
+        { "time": "17:00", "count": 4 }
+      ]
+    },
+    {
+      "date": "2024-01-06",
+      "arrivals": [
+        { "time": "08:15", "count": 5 },
+        { "time": "10:30", "count": 3 },
+        { "time": "12:30", "count": 6 },
+        { "time": "14:45", "count": 4 },
+        { "time": "16:00", "count": 5 }
+      ],
+      "departures": [
+        { "time": "09:30", "count": 2 },
+        { "time": "11:45", "count": 4 },
+        { "time": "13:30", "count": 3 },
+        { "time": "15:15", "count": 5 },
+        { "time": "17:30", "count": 2 }
+      ]
+    },
+    {
+      "date": "2024-01-07",
+      "arrivals": [
+        { "time": "08:45", "count": 4 },
+        { "time": "10:00", "count": 7 },
+        { "time": "12:15", "count": 3 },
+        { "time": "14:00", "count": 6 },
+        { "time": "16:30", "count": 5 }
+      ],
+      "departures": [
+        { "time": "09:15", "count": 3 },
+        { "time": "11:00", "count": 5 },
+        { "time": "13:15", "count": 2 },
+        { "time": "15:45", "count": 4 },
+        { "time": "17:15", "count": 3 }
+      ]
+    },
+    {
+      "date": "2024-01-08",
+      "arrivals": [
+        { "time": "08:00", "count": 6 },
+        { "time": "10:45", "count": 4 },
+        { "time": "12:00", "count": 7 },
+        { "time": "14:15", "count": 3 },
+        { "time": "16:45", "count": 5 }
+      ],
+      "departures": [
+        { "time": "09:45", "count": 4 },
+        { "time": "11:15", "count": 3 },
+        { "time": "13:00", "count": 5 },
+        { "time": "15:30", "count": 2 },
+        { "time": "17:45", "count": 4 }
+      ]
+    },
+    {
+      "date": "2024-01-09",
+      "arrivals": [
+        { "time": "08:30", "count": 3 },
+        { "time": "10:15", "count": 5 },
+        { "time": "12:45", "count": 4 },
+        { "time": "14:30", "count": 7 },
+        { "time": "16:20", "count": 3 }
+      ],
+      "departures": [
+        { "time": "09:00", "count": 2 },
+        { "time": "11:30", "count": 4 },
+        { "time": "13:45", "count": 3 },
+        { "time": "15:20", "count": 5 },
+        { "time": "17:00", "count": 2 }
+      ]
+    },
+    {
+      "date": "2024-01-10",
+      "arrivals": [
+        { "time": "08:15", "count": 5 },
+        { "time": "10:30", "count": 3 },
+        { "time": "12:30", "count": 6 },
+        { "time": "14:45", "count": 4 },
+        { "time": "16:00", "count": 7 }
+      ],
+      "departures": [
+        { "time": "09:30", "count": 3 },
+        { "time": "11:45", "count": 5 },
+        { "time": "13:30", "count": 2 },
+        { "time": "15:15", "count": 4 },
+        { "time": "17:30", "count": 3 }
+      ]
+    }
+  ]
+}
