@@ -101,6 +101,8 @@
 // }
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+import 'package:hackathon/providers/theme_provider.dart';
 import 'package:hackathon/screens/booking_arrivals_screen.dart';
 import 'package:hackathon/screens/compare_arrival_bookings_screen.dart';
 import 'package:hackathon/screens/todays_arrival_departure_screen.dart';
@@ -160,6 +162,22 @@ class _BaseScreenState extends State<BaseScreen> {
           "Analysis Dashboard",
           style: GoogleFonts.lato(fontSize: 20, fontWeight: FontWeight.bold),
         ),
+        actions: [
+          // Dark mode toggle button
+          Consumer<ThemeProvider>(
+            builder: (context, themeProvider, _) => IconButton(
+              icon: Icon(
+                themeProvider.isDarkMode ? Icons.light_mode : Icons.dark_mode,
+              ),
+              onPressed: () {
+                themeProvider.toggleTheme();
+              },
+              tooltip: themeProvider.isDarkMode
+                  ? 'Switch to Light Mode'
+                  : 'Switch to Dark Mode',
+            ),
+          ),
+        ],
       ),
       body: _pageOptions[_selectedIndex], // Show the selected page content
       drawer: Drawer(
@@ -173,11 +191,15 @@ class _BaseScreenState extends State<BaseScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Image.asset('assets/images/logo.png', width: 100, fit: BoxFit.contain),
+                  Image.asset('assets/images/logo.png',
+                      width: 100, fit: BoxFit.contain),
                   const SizedBox(height: 10),
                   Text(
                     'Analysis Dashboard',
-                    style: GoogleFonts.lato(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
+                    style: GoogleFonts.lato(
+                        color: Colors.white,
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold),
                   ),
                 ],
               ),

@@ -25,7 +25,8 @@ class _LoginScreenState extends State<LoginScreen> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            Navigator.pop(context); // This allows user to return to the previous screen
+            Navigator.pop(
+                context); // This allows user to return to the previous screen
           },
         ),
       ),
@@ -35,7 +36,8 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Center( // Display the CiMSO Logo
+              Center(
+                // Display the CiMSO Logo
                 child: Image.asset(
                   'assets/images/logo.png',
                   width: 120, // Adjust size as needed
@@ -108,13 +110,16 @@ class _LoginScreenState extends State<LoginScreen> {
                         onPressed: () {
                           if (_formKey.currentState!.validate()) {
                             ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(content: Text("Login Successful"), backgroundColor: Colors.green),
+                              const SnackBar(
+                                  content: Text("Login Successful"),
+                                  backgroundColor: Colors.green),
                             );
                             // Navigate to BookingArrivalsScreen
 // Navigate to BaseScreen instead of BookingArrivalsScreen
                             Navigator.pushReplacement(
                               context,
-                              MaterialPageRoute(builder: (context) => const BaseScreen()),
+                              MaterialPageRoute(
+                                  builder: (context) => const BaseScreen()),
                             );
                           }
                         },
