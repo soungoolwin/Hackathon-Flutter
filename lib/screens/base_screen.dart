@@ -103,6 +103,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:hackathon/providers/theme_provider.dart';
+import 'package:hackathon/providers/auth_provider.dart';
+import 'package:hackathon/providers/language_provider.dart';
 import 'package:hackathon/screens/booking_arrivals_screen.dart';
 import 'package:hackathon/screens/compare_arrival_bookings_screen.dart';
 import 'package:hackathon/screens/todays_arrival_departure_screen.dart';
@@ -112,6 +114,7 @@ import 'package:hackathon/screens/age_group_segmentation.dart';
 import 'package:hackathon/screens/canceled_bookings_screen.dart';
 import 'package:hackathon/screens/most_frequent_units_screen.dart';
 import 'package:hackathon/screens/total_income_screen.dart';
+import 'package:hackathon/screens/home_screen.dart';
 
 class BaseScreen extends StatefulWidget {
   const BaseScreen({Key? key}) : super(key: key);
@@ -158,9 +161,11 @@ class _BaseScreenState extends State<BaseScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Analysis Dashboard",
-          style: GoogleFonts.lato(fontSize: 20, fontWeight: FontWeight.bold),
+        title: Consumer<LanguageProvider>(
+          builder: (context, languageProvider, _) => Text(
+            languageProvider.getTranslatedText("Analysis Dashboard"),
+            style: GoogleFonts.lato(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
         ),
         actions: [
           // Dark mode toggle button
@@ -194,12 +199,14 @@ class _BaseScreenState extends State<BaseScreen> {
                   Image.asset('assets/images/logo.png',
                       width: 100, fit: BoxFit.contain),
                   const SizedBox(height: 10),
-                  Text(
-                    'Analysis Dashboard',
-                    style: GoogleFonts.lato(
-                        color: Colors.white,
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold),
+                  Consumer<LanguageProvider>(
+                    builder: (context, languageProvider, _) => Text(
+                      languageProvider.getTranslatedText('Analysis Dashboard'),
+                      style: GoogleFonts.lato(
+                          color: Colors.white,
+                          fontSize: 22,
+                          fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ],
               ),
@@ -214,6 +221,55 @@ class _BaseScreenState extends State<BaseScreen> {
                 },
               ),
             ),
+
+            // Language Toggle Button
+            const Divider(),
+            Consumer<LanguageProvider>(
+              builder: (context, languageProvider, _) => ListTile(
+                leading: const Icon(Icons.language),
+                title: Text(
+                  languageProvider.getTranslatedText('Language'),
+                  style: GoogleFonts.lato(fontSize: 16),
+                ),
+                trailing: Switch(
+                  value: languageProvider.isThai,
+                  onChanged: (value) async {
+                    await languageProvider.toggleLanguage();
+                  },
+                  activeThumbImage: const AssetImage('assets/images/logo.png'),
+                  inactiveThumbImage:
+                      const AssetImage('assets/images/logo.png'),
+                  activeColor: Colors.blue,
+                ),
+                subtitle: Text(
+                  languageProvider.isThai
+                      ? languageProvider.getTranslatedText('Thai')
+                      : languageProvider.getTranslatedText('English'),
+                  style: GoogleFonts.lato(fontSize: 12),
+                ),
+              ),
+            ),
+
+            // Logout Button
+            const Divider(),
+            Consumer2<AuthProvider, LanguageProvider>(
+              builder: (context, authProvider, languageProvider, _) => ListTile(
+                leading: const Icon(Icons.logout),
+                title: Text(languageProvider.getTranslatedText('Logout'),
+                    style: GoogleFonts.lato(fontSize: 16)),
+                onTap: () async {
+                  await authProvider.logout();
+                  // Close drawer
+                  Navigator.of(context).pop();
+                  // Navigate to home screen
+                  Navigator.of(context).pushAndRemoveUntil(
+                    MaterialPageRoute(builder: (context) => const HomeScreen()),
+                    (route) => false,
+                  );
+                },
+              ),
+            ),
+            const SizedBox(height: 16),
           ],
         ),
       ),
@@ -221,10 +277,13 @@ class _BaseScreenState extends State<BaseScreen> {
   }
 
   Widget _buildDrawerItem(String title, int index) {
-    return ListTile(
-      title: Text(title, style: GoogleFonts.lato(fontSize: 16)),
-      selected: _selectedIndex == index,
-      onTap: () => _onSelectPage(index),
+    return Consumer<LanguageProvider>(
+      builder: (context, languageProvider, _) => ListTile(
+        title: Text(languageProvider.getTranslatedText(title),
+            style: GoogleFonts.lato(fontSize: 16)),
+        selected: _selectedIndex == index,
+        onTap: () => _onSelectPage(index),
+      ),
     );
   }
 }
