@@ -1,0 +1,214 @@
+{
+  "data": [
+    {
+      "month": "January",
+      "year": 2024,
+      "ageGroups": [
+        {
+          "ageGroup": "Child (0-12)",
+          "bookings": 15,
+          "revenue": 1200.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Family Suite", "count": 8 },
+              { "type": "Standard Room", "count": 5 },
+              { "type": "Deluxe Room", "count": 2 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 5 },
+              { "day": "Weekend", "count": 10 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Adult (13-35)",
+          "bookings": 50,
+          "revenue": 8200.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Economy Room", "count": 20 },
+              { "type": "Sea View Room", "count": 18 },
+              { "type": "Deluxe Room", "count": 12 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 15 },
+              { "day": "Weekend", "count": 35 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Middle Age (36-55)",
+          "bookings": 40,
+          "revenue": 9500.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Deluxe Room", "count": 15 },
+              { "type": "Executive Suite", "count": 15 },
+              { "type": "Sea View Room", "count": 10 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 25 },
+              { "day": "Weekend", "count": 15 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Elder (56+)",
+          "bookings": 25,
+          "revenue": 6000.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Deluxe Room", "count": 10 },
+              { "type": "Accessible Room", "count": 10 },
+              { "type": "Sea View Room", "count": 5 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 18 },
+              { "day": "Weekend", "count": 7 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "month": "February",
+      "year": 2024,
+      "ageGroups": [
+        {
+          "ageGroup": "Child (0-12)",
+          "bookings": 18,
+          "revenue": 1500.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Family Suite", "count": 10 },
+              { "type": "Standard Room", "count": 6 },
+              { "type": "Deluxe Room", "count": 2 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 6 },
+              { "day": "Weekend", "count": 12 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Adult (13-35)",
+          "bookings": 60,
+          "revenue": 9800.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Economy Room", "count": 25 },
+              { "type": "Sea View Room", "count": 22 },
+              { "type": "Deluxe Room", "count": 13 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 18 },
+              { "day": "Weekend", "count": 42 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Middle Age (36-55)",
+          "bookings": 45,
+          "revenue": 10500.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Deluxe Room", "count": 18 },
+              { "type": "Executive Suite", "count": 17 },
+              { "type": "Sea View Room", "count": 10 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 28 },
+              { "day": "Weekend", "count": 17 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Elder (56+)",
+          "bookings": 30,
+          "revenue": 7200.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Deluxe Room", "count": 12 },
+              { "type": "Accessible Room", "count": 12 },
+              { "type": "Sea View Room", "count": 6 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 22 },
+              { "day": "Weekend", "count": 8 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "month": "March",
+      "year": 2024,
+      "ageGroups": [
+        {
+          "ageGroup": "Child (0-12)",
+          "bookings": 20,
+          "revenue": 1800.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Family Suite", "count": 12 },
+              { "type": "Standard Room", "count": 6 },
+              { "type": "Deluxe Room", "count": 2 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 8 },
+              { "day": "Weekend", "count": 12 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Adult (13-35)",
+          "bookings": 65,
+          "revenue": 10500.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Economy Room", "count": 28 },
+              { "type": "Sea View Room", "count": 25 },
+              { "type": "Deluxe Room", "count": 12 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 20 },
+              { "day": "Weekend", "count": 45 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Middle Age (36-55)",
+          "bookings": 50,
+          "revenue": 12000.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Deluxe Room", "count": 20 },
+              { "type": "Executive Suite", "count": 20 },
+              { "type": "Sea View Room", "count": 10 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 30 },
+              { "day": "Weekend", "count": 20 }
+            ]
+          }
+        },
+        {
+          "ageGroup": "Elder (56+)",
+          "bookings": 35,
+          "revenue": 8400.0,
+          "preferences": {
+            "roomTypes": [
+              { "type": "Deluxe Room", "count": 15 },
+              { "type": "Accessible Room", "count": 15 },
+              { "type": "Sea View Room", "count": 5 }
+            ],
+            "bookingDays": [
+              { "day": "Weekday", "count": 25 },
+              { "day": "Weekend", "count": 10 }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
