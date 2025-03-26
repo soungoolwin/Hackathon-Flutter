@@ -31,12 +31,15 @@ dependencies:
   flutter:
     sdk: flutter
   syncfusion_flutter_charts: ^28.2.6
-  google_fonts: ^5.1.0
+  google_fonts: ^4.0.4
   cupertino_icons: ^1.0.8
   syncfusion_flutter_gauges: ^28.2.6
   intl: ^0.20.2
   shared_preferences: ^2.5.2
   provider: ^6.1.2
+  syncfusion_flutter_pdf: ^28.2.6
+  path_provider: ^2.0.0
+  http: ^1.3.0
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +66,9 @@ flutter:
     - assets/todays_arrival_departure_screen.json
     - assets/guest_birthday_screen.json
     - assets/age_group_segmentation.json
+    - assets/canceled_bookings_screen.json
+    - assets/most_frequent_units_screen.json
+    - assets/fakedata.pdf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

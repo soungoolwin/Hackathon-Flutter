@@ -1,0 +1,333 @@
+{
+  "totalBookings": 500,
+  "canceledBookings": 120,
+  "cancellationsByMonth": [
+    {
+      "month": "January",
+      "year": 2024,
+      "totalCancellations": 32,
+      "cancellations": [
+        {
+          "id": 1,
+          "date": "2024-01-05",
+          "guestName": "John Smith",
+          "ageGroup": "35-44",
+          "reason": "Change of plans",
+          "bookingAmount": 250.0
+        },
+        {
+          "id": 2,
+          "date": "2024-01-08",
+          "guestName": "Emma Johnson",
+          "ageGroup": "25-34",
+          "reason": "Found better deal",
+          "bookingAmount": 175.5
+        },
+        {
+          "id": 3,
+          "date": "2024-01-12",
+          "guestName": "Michael Brown",
+          "ageGroup": "45-54",
+          "reason": "Medical emergency",
+          "bookingAmount": 320.0
+        },
+        {
+          "id": 4,
+          "date": "2024-01-15",
+          "guestName": "Sophia Garcia",
+          "ageGroup": "18-24",
+          "reason": "Transportation issues",
+          "bookingAmount": 150.75
+        },
+        {
+          "id": 5,
+          "date": "2024-01-18",
+          "guestName": "William Davis",
+          "ageGroup": "55-64",
+          "reason": "Weather concerns",
+          "bookingAmount": 280.25
+        },
+        {
+          "id": 6,
+          "date": "2024-01-22",
+          "guestName": "Olivia Wilson",
+          "ageGroup": "25-34",
+          "reason": "Work conflict",
+          "bookingAmount": 195.0
+        },
+        {
+          "id": 7,
+          "date": "2024-01-25",
+          "guestName": "James Martinez",
+          "ageGroup": "35-44",
+          "reason": "Family emergency",
+          "bookingAmount": 310.5
+        },
+        {
+          "id": 8,
+          "date": "2024-01-29",
+          "guestName": "Ava Anderson",
+          "ageGroup": "18-24",
+          "reason": "Change of plans",
+          "bookingAmount": 165.25
+        }
+      ]
+    },
+    {
+      "month": "February",
+      "year": 2024,
+      "totalCancellations": 28,
+      "cancellations": [
+        {
+          "id": 9,
+          "date": "2024-02-02",
+          "guestName": "Ethan Thomas",
+          "ageGroup": "25-34",
+          "reason": "Budget constraints",
+          "bookingAmount": 220.0
+        },
+        {
+          "id": 10,
+          "date": "2024-02-05",
+          "guestName": "Isabella Jackson",
+          "ageGroup": "35-44",
+          "reason": "Found better deal",
+          "bookingAmount": 275.5
+        },
+        {
+          "id": 11,
+          "date": "2024-02-09",
+          "guestName": "Alexander White",
+          "ageGroup": "45-54",
+          "reason": "Change of plans",
+          "bookingAmount": 290.25
+        },
+        {
+          "id": 12,
+          "date": "2024-02-12",
+          "guestName": "Mia Harris",
+          "ageGroup": "18-24",
+          "reason": "Transportation issues",
+          "bookingAmount": 180.0
+        },
+        {
+          "id": 13,
+          "date": "2024-02-16",
+          "guestName": "Benjamin Martin",
+          "ageGroup": "55-64",
+          "reason": "Medical emergency",
+          "bookingAmount": 340.75
+        },
+        {
+          "id": 14,
+          "date": "2024-02-20",
+          "guestName": "Charlotte Thompson",
+          "ageGroup": "25-34",
+          "reason": "Work conflict",
+          "bookingAmount": 210.5
+        },
+        {
+          "id": 15,
+          "date": "2024-02-24",
+          "guestName": "Daniel Rodriguez",
+          "ageGroup": "35-44",
+          "reason": "Family emergency",
+          "bookingAmount": 305.25
+        },
+        {
+          "id": 16,
+          "date": "2024-02-28",
+          "guestName": "Amelia Lewis",
+          "ageGroup": "18-24",
+          "reason": "Weather concerns",
+          "bookingAmount": 170.0
+        }
+      ]
+    },
+    {
+      "month": "March",
+      "year": 2024,
+      "totalCancellations": 35,
+      "cancellations": [
+        {
+          "id": 17,
+          "date": "2024-03-03",
+          "guestName": "Henry Walker",
+          "ageGroup": "45-54",
+          "reason": "Change of plans",
+          "bookingAmount": 295.0
+        },
+        {
+          "id": 18,
+          "date": "2024-03-06",
+          "guestName": "Victoria Hall",
+          "ageGroup": "25-34",
+          "reason": "Found better deal",
+          "bookingAmount": 225.5
+        },
+        {
+          "id": 19,
+          "date": "2024-03-09",
+          "guestName": "Joseph Allen",
+          "ageGroup": "35-44",
+          "reason": "Budget constraints",
+          "bookingAmount": 260.25
+        },
+        {
+          "id": 20,
+          "date": "2024-03-12",
+          "guestName": "Scarlett Young",
+          "ageGroup": "18-24",
+          "reason": "Transportation issues",
+          "bookingAmount": 185.75
+        },
+        {
+          "id": 21,
+          "date": "2024-03-15",
+          "guestName": "Samuel King",
+          "ageGroup": "55-64",
+          "reason": "Medical emergency",
+          "bookingAmount": 330.0
+        },
+        {
+          "id": 22,
+          "date": "2024-03-18",
+          "guestName": "Grace Wright",
+          "ageGroup": "25-34",
+          "reason": "Work conflict",
+          "bookingAmount": 215.5
+        },
+        {
+          "id": 23,
+          "date": "2024-03-21",
+          "guestName": "David Lopez",
+          "ageGroup": "35-44",
+          "reason": "Family emergency",
+          "bookingAmount": 300.25
+        },
+        {
+          "id": 24,
+          "date": "2024-03-24",
+          "guestName": "Chloe Scott",
+          "ageGroup": "18-24",
+          "reason": "Change of plans",
+          "bookingAmount": 175.0
+        },
+        {
+          "id": 25,
+          "date": "2024-03-27",
+          "guestName": "Andrew Green",
+          "ageGroup": "45-54",
+          "reason": "Weather concerns",
+          "bookingAmount": 285.75
+        },
+        {
+          "id": 26,
+          "date": "2024-03-30",
+          "guestName": "Zoe Baker",
+          "ageGroup": "25-34",
+          "reason": "Found better deal",
+          "bookingAmount": 230.0
+        }
+      ]
+    },
+    {
+      "month": "April",
+      "year": 2024,
+      "totalCancellations": 25,
+      "cancellations": [
+        {
+          "id": 27,
+          "date": "2024-04-02",
+          "guestName": "Christopher Adams",
+          "ageGroup": "35-44",
+          "reason": "Work conflict",
+          "bookingAmount": 270.5
+        },
+        {
+          "id": 28,
+          "date": "2024-04-05",
+          "guestName": "Lily Nelson",
+          "ageGroup": "18-24",
+          "reason": "Budget constraints",
+          "bookingAmount": 190.25
+        },
+        {
+          "id": 29,
+          "date": "2024-04-08",
+          "guestName": "Matthew Carter",
+          "ageGroup": "45-54",
+          "reason": "Change of plans",
+          "bookingAmount": 310.0
+        },
+        {
+          "id": 30,
+          "date": "2024-04-11",
+          "guestName": "Hannah Mitchell",
+          "ageGroup": "25-34",
+          "reason": "Transportation issues",
+          "bookingAmount": 235.75
+        },
+        {
+          "id": 31,
+          "date": "2024-04-14",
+          "guestName": "Ryan Perez",
+          "ageGroup": "35-44",
+          "reason": "Family emergency",
+          "bookingAmount": 290.5
+        },
+        {
+          "id": 32,
+          "date": "2024-04-17",
+          "guestName": "Ella Roberts",
+          "ageGroup": "18-24",
+          "reason": "Found better deal",
+          "bookingAmount": 180.25
+        },
+        {
+          "id": 33,
+          "date": "2024-04-20",
+          "guestName": "Jonathan Turner",
+          "ageGroup": "55-64",
+          "reason": "Medical emergency",
+          "bookingAmount": 350.0
+        },
+        {
+          "id": 34,
+          "date": "2024-04-23",
+          "guestName": "Natalie Phillips",
+          "ageGroup": "25-34",
+          "reason": "Weather concerns",
+          "bookingAmount": 220.75
+        },
+        {
+          "id": 35,
+          "date": "2024-04-26",
+          "guestName": "Joshua Campbell",
+          "ageGroup": "35-44",
+          "reason": "Change of plans",
+          "bookingAmount": 280.5
+        },
+        {
+          "id": 36,
+          "date": "2024-04-30",
+          "guestName": "Audrey Evans",
+          "ageGroup": "45-54",
+          "reason": "Work conflict",
+          "bookingAmount": 315.25
+        }
+      ]
+    }
+  ],
+  "cancellationReasons": [
+    "Change of plans",
+    "Found better deal",
+    "Medical emergency",
+    "Transportation issues",
+    "Weather concerns",
+    "Work conflict",
+    "Family emergency",
+    "Budget constraints"
+  ],
+  "ageGroups": ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"]
+}

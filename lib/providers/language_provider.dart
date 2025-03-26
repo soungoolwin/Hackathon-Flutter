@@ -73,6 +73,10 @@ class LanguageProvider extends ChangeNotifier {
       'en': 'Total Income Analysis',
       'th': 'การวิเคราะห์รายได้ทั้งหมด',
     },
+    'AI Powered Chat': {
+      'en': 'AI Powered Chat',
+      'th': 'แชทที่ขับเคลื่อนด้วย AI',
+    },
     'Logout': {
       'en': 'Logout',
       'th': 'ออกจากระบบ',

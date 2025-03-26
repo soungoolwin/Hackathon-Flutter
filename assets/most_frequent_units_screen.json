@@ -1,0 +1,132 @@
+{
+  "data": [
+    {
+      "date": "2024-01-01",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 185, "revenue": 92500 },
+        { "unitName": "Sea View Room", "bookings": 210, "revenue": 84000 },
+        { "unitName": "Family Room", "bookings": 156, "revenue": 70200 },
+        { "unitName": "Deluxe Room", "bookings": 142, "revenue": 56800 },
+        { "unitName": "Penthouse", "bookings": 78, "revenue": 117000 },
+        { "unitName": "Garden View Room", "bookings": 124, "revenue": 43400 },
+        { "unitName": "Economy Room", "bookings": 198, "revenue": 49500 },
+        { "unitName": "Presidential Suite", "bookings": 45, "revenue": 112500 }
+      ]
+    },
+    {
+      "date": "2024-01-15",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 192, "revenue": 96000 },
+        { "unitName": "Sea View Room", "bookings": 205, "revenue": 82000 },
+        { "unitName": "Family Room", "bookings": 162, "revenue": 72900 },
+        { "unitName": "Deluxe Room", "bookings": 138, "revenue": 55200 },
+        { "unitName": "Penthouse", "bookings": 82, "revenue": 123000 },
+        { "unitName": "Garden View Room", "bookings": 118, "revenue": 41300 },
+        { "unitName": "Economy Room", "bookings": 204, "revenue": 51000 },
+        { "unitName": "Presidential Suite", "bookings": 48, "revenue": 120000 }
+      ]
+    },
+    {
+      "date": "2024-02-01",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 210, "revenue": 105000 },
+        { "unitName": "Sea View Room", "bookings": 225, "revenue": 90000 },
+        { "unitName": "Family Room", "bookings": 175, "revenue": 78750 },
+        { "unitName": "Deluxe Room", "bookings": 155, "revenue": 62000 },
+        { "unitName": "Penthouse", "bookings": 90, "revenue": 135000 },
+        { "unitName": "Garden View Room", "bookings": 130, "revenue": 45500 },
+        { "unitName": "Economy Room", "bookings": 215, "revenue": 53750 },
+        { "unitName": "Presidential Suite", "bookings": 55, "revenue": 137500 }
+      ]
+    },
+    {
+      "date": "2024-02-15",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 218, "revenue": 109000 },
+        { "unitName": "Sea View Room", "bookings": 232, "revenue": 92800 },
+        { "unitName": "Family Room", "bookings": 182, "revenue": 81900 },
+        { "unitName": "Deluxe Room", "bookings": 160, "revenue": 64000 },
+        { "unitName": "Penthouse", "bookings": 95, "revenue": 142500 },
+        { "unitName": "Garden View Room", "bookings": 135, "revenue": 47250 },
+        { "unitName": "Economy Room", "bookings": 220, "revenue": 55000 },
+        { "unitName": "Presidential Suite", "bookings": 60, "revenue": 150000 }
+      ]
+    },
+    {
+      "date": "2024-03-01",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 230, "revenue": 115000 },
+        { "unitName": "Sea View Room", "bookings": 245, "revenue": 98000 },
+        { "unitName": "Family Room", "bookings": 195, "revenue": 87750 },
+        { "unitName": "Deluxe Room", "bookings": 170, "revenue": 68000 },
+        { "unitName": "Penthouse", "bookings": 105, "revenue": 157500 },
+        { "unitName": "Garden View Room", "bookings": 145, "revenue": 50750 },
+        { "unitName": "Economy Room", "bookings": 235, "revenue": 58750 },
+        { "unitName": "Presidential Suite", "bookings": 70, "revenue": 175000 }
+      ]
+    },
+    {
+      "date": "2024-03-15",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 238, "revenue": 119000 },
+        { "unitName": "Sea View Room", "bookings": 252, "revenue": 100800 },
+        { "unitName": "Family Room", "bookings": 202, "revenue": 90900 },
+        { "unitName": "Deluxe Room", "bookings": 175, "revenue": 70000 },
+        { "unitName": "Penthouse", "bookings": 110, "revenue": 165000 },
+        { "unitName": "Garden View Room", "bookings": 150, "revenue": 52500 },
+        { "unitName": "Economy Room", "bookings": 240, "revenue": 60000 },
+        { "unitName": "Presidential Suite", "bookings": 75, "revenue": 187500 }
+      ]
+    },
+    {
+      "date": "2024-04-01",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 250, "revenue": 125000 },
+        { "unitName": "Sea View Room", "bookings": 265, "revenue": 106000 },
+        { "unitName": "Family Room", "bookings": 215, "revenue": 96750 },
+        { "unitName": "Deluxe Room", "bookings": 185, "revenue": 74000 },
+        { "unitName": "Penthouse", "bookings": 120, "revenue": 180000 },
+        { "unitName": "Garden View Room", "bookings": 160, "revenue": 56000 },
+        { "unitName": "Economy Room", "bookings": 255, "revenue": 63750 },
+        { "unitName": "Presidential Suite", "bookings": 85, "revenue": 212500 }
+      ]
+    },
+    {
+      "date": "2024-04-15",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 258, "revenue": 129000 },
+        { "unitName": "Sea View Room", "bookings": 272, "revenue": 108800 },
+        { "unitName": "Family Room", "bookings": 222, "revenue": 99900 },
+        { "unitName": "Deluxe Room", "bookings": 190, "revenue": 76000 },
+        { "unitName": "Penthouse", "bookings": 125, "revenue": 187500 },
+        { "unitName": "Garden View Room", "bookings": 165, "revenue": 57750 },
+        { "unitName": "Economy Room", "bookings": 260, "revenue": 65000 },
+        { "unitName": "Presidential Suite", "bookings": 90, "revenue": 225000 }
+      ]
+    },
+    {
+      "date": "2024-05-01",
+      "units": [
+        { "unitName": "Luxury Suite", "bookings": 270, "revenue": 135000 },
+        { "unitName": "Sea View Room", "bookings": 285, "revenue": 114000 },
+        { "unitName": "Family Room", "bookings": 235, "revenue": 105750 },
+        { "unitName": "Deluxe Room", "bookings": 200, "revenue": 80000 },
+        { "unitName": "Penthouse", "bookings": 135, "revenue": 202500 },
+        { "unitName": "Garden View Room", "bookings": 175, "revenue": 61250 },
+        { "unitName": "Economy Room", "bookings": 275, "revenue": 68750 },
+        { "unitName": "Presidential Suite", "bookings": 100, "revenue": 250000 }
+      ]
+    }
+  ],
+  "insights": {
+    "2024-01-01_2024-01-15": "Sea View Rooms were the most popular in early January with 210 bookings. Economy Rooms showed strong demand with 198 bookings, suggesting budget-conscious travelers in the post-holiday season.",
+    "2024-01-15_2024-02-01": "Economy Rooms saw increased bookings to 204, while Luxury Suites grew to 192 bookings. Consider promotional packages for Garden View Rooms which had the lowest occupancy.",
+    "2024-02-01_2024-02-15": "February shows Sea View Rooms maintaining popularity with 225 bookings. Economy Rooms continue strong performance with 215 bookings. Presidential Suite bookings increased by 14% compared to January.",
+    "2024-02-15_2024-03-01": "Late February shows Sea View Rooms (232) and Economy Rooms (220) maintaining their lead. Penthouse bookings increased to 95, showing growing demand for luxury accommodations.",
+    "2024-03-01_2024-03-15": "March begins with Sea View Rooms reaching 245 bookings. Luxury Suite bookings increased to 230, showing a shift toward premium accommodations as spring approaches.",
+    "2024-03-15_2024-04-01": "Mid-March shows Sea View Rooms (252) and Economy Rooms (240) maintaining popularity. Presidential Suite bookings increased to 75, showing continued growth in the luxury segment.",
+    "2024-04-01_2024-04-15": "April begins with Sea View Rooms reaching 265 bookings. Economy Rooms show strong performance with 255 bookings. Presidential Suite revenue exceeded $210,000 for the first time.",
+    "2024-04-15_2024-05-01": "Late April shows Sea View Rooms (272) and Economy Rooms (260) maintaining their lead. Penthouse bookings increased to 125, showing continued demand for luxury accommodations.",
+    "2024-01-01_2024-05-01": "Over the entire period, Sea View Rooms were consistently the most booked unit type with a total of 2,191 bookings. Economy Rooms followed closely with 2,102 bookings. Presidential Suites generated the highest revenue despite having the lowest booking count, demonstrating the effectiveness of premium pricing strategies."
+  }
+}
